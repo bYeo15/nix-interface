@@ -12,6 +12,18 @@
       "url": null,
       "hash": "1d4m7hsq727q7ndjqmgyl8vkbkqjwps962ygmv2mcc5dbqzgn963"
     },
+    "common": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "git+ssh://git@github.com/bYeo15/nix-common.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "dee0a0912dba262a2e39859d8e68f78e5e414adf",
+      "url": null,
+      "hash": "0rxqjy9rkzwb4ki4scm9mk4zd869j276jism6dqrxn4hzri17ch2"
+    },
     "flake-compat": {
       "type": "Git",
       "repository": {
@@ -35,6 +47,18 @@
       "revision": "1a23ba599bd3524302a2b91f5cc8cce5cc640488",
       "url": null,
       "hash": "05fnqj4sfg8vjbs28sacs6r6z046vqrf53yc6jlypsnsagg35ybc"
+    },
+    "hosts": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "git+ssh://git@github.com/bYeo15/nix-hosts.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "8ca8d16f8b8002a875098c557553aad904838b96",
+      "url": null,
+      "hash": "10x7ayxr48x8qqy0q9jfl19cazv8c5v9pa0cld67niccfd4klz69"
     },
     "nixos-rpi": {
       "type": "Git",
@@ -65,6 +89,30 @@
       "revision": "8d653c378dee05b74958d148238b5ec05b978755",
       "url": null,
       "hash": "17hjms4alh2kwnsh6h91ifh3wxhz8xj8ibqxlydm8d4x5p228zbz"
+    },
+    "secrets": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "git+ssh://git@github.com/bYeo15/nix-secrets.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2c67c6e6e4de69c4ecc6b2220fdc3e420c86eca9",
+      "url": null,
+      "hash": "1h109ky0pn42wsngqpfhpyxlxjc0bw485l9yp0f5kwhg8g5cqnrh"
+    },
+    "users": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "git+ssh://git@github.com/bYeo15/nix-users.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "ab7a4311ea9b036b34585abb67a4702f2eb550ea",
+      "url": null,
+      "hash": "08p9n1ijl2rc8yfp7ixif4n1y25abk7nbl9696hb90xvklcfszlh"
     }
   },
   "version": 5
