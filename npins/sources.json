@@ -1,0 +1,71 @@
+{
+  "pins": {
+    "agenix": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/ryantm/agenix.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "fcdea223397448d35d9b31f798479227e80183f6",
+      "url": null,
+      "hash": "1d4m7hsq727q7ndjqmgyl8vkbkqjwps962ygmv2mcc5dbqzgn963"
+    },
+    "flake-compat": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/NixOS/flake-compat.git"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "5edf11c44bc78a0d334f6334cdaf7d60d732daab",
+      "url": null,
+      "hash": "0yqfa6rx8md81bcn4szfp0hjq2f3h9i8zjzhqqyfqdkrj5559nmw"
+    },
+    "home-manager": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/bYeo15/home-manager.git"
+      },
+      "branch": "feature/custom-build",
+      "submodules": false,
+      "revision": "1a23ba599bd3524302a2b91f5cc8cce5cc640488",
+      "url": null,
+      "hash": "05fnqj4sfg8vjbs28sacs6r6z046vqrf53yc6jlypsnsagg35ybc"
+    },
+    "nixos-rpi": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/nvmd/nixos-raspberrypi.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "debda1e1c80544a78157353225013afff2343034",
+      "url": null,
+      "hash": "0zlpsl376h4dxrsvn4102alg1qngabjhss0iii0sa23fr31fhwfb"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixos-unstable",
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre930839.80e4adbcf899/nixexprs.tar.xz",
+      "hash": "14sc4md84l0yyjs0bfxkafvr4bh6j8h2v0m0p0hsvrd8153n0mh2"
+    },
+    "nur": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/nix-community/NUR.git"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "8d653c378dee05b74958d148238b5ec05b978755",
+      "url": null,
+      "hash": "17hjms4alh2kwnsh6h91ifh3wxhz8xj8ibqxlydm8d4x5p228zbz"
+    }
+  },
+  "version": 5
+}
