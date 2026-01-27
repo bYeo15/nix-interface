@@ -49,7 +49,7 @@ let
     ];
 
     externalPackages = {
-        agenix = import sources.agenix { inherit pkgs; };
+        agenix = (import sources.agenix { inherit pkgs; }).agenix;
         inherit (home-manager) home-manager;
         # Not a package, but it makes the most sense
         # to put it here
