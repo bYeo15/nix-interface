@@ -49,6 +49,7 @@ let
     ];
 
     externalPackages = {
+        # agenix/default.nix results in { agenix = <pkg drv>; ... }
         agenix = (import sources.agenix { inherit pkgs; }).agenix;
         inherit (home-manager) home-manager;
         # Not a package, but it makes the most sense
@@ -74,16 +75,16 @@ let
     homeArgs = args;
 
 
-    mkNixos = hostModules: hostUsers: extlib.makeHost (
-        hostModules ++
-        hostUsers   ++
-        dataModules ++
+    mkNixos = hostModule: hostUsers: extlib.makeHost (
+        [ hostModule ] ++
+        hostUsers      ++
+        dataModules    ++
         nixosModules
     ) nixosArgs;
 
-    mkUser = userModules: extlib.makeHome (
-        userModules ++
-        dataModules ++
+    mkUser = userModule: extlib.makeHome (
+        [ userModule ] ++
+        dataModules    ++
         homeModules
     ) homeArgs;
 in {
