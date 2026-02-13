@@ -6,13 +6,14 @@ let
     lib = pkgs.lib;
 
     # --- Internal ---
-    # common exposes a custom nix library + lists of common modules
+    # common exposes a custom nix library + out of tree packages  + lists of common modules
     # common modules are classified as;
     # - data : only used as a wrapper for representing some data (compatible with nixos and home manager)
     # - nixos : generates nixos config, compatible only with nixos
     # - home : generates home manager config, compatible only with home manager
     common = import sources.common;
     extlib = common.extlib { inherit sources; inherit pkgs; inherit lib; };
+    common-extpkgs = common.extpkgs { inherit pkgs; };
     commonDataModules = common.data;
     commonNixosModules = common.nixos;
     commonHomeModules = common.home;
@@ -48,14 +49,15 @@ let
     externalHomeModules = [
     ];
 
-    externalPackages = {
+    # Merge extpkgs from common w/ external packages
+    extpkgs = {
         # agenix/default.nix results in { agenix = <pkg drv>; ... }
         agenix = (import sources.agenix { inherit pkgs; }).agenix;
         inherit (home-manager) home-manager;
         # Not a package, but it makes the most sense
         # to put it here
         inherit nur;
-    };
+    } // common-extpkgs;
 
     # Combine common/secret internal and external modules
     dataModules = commonDataModules ++ secrets.data;
@@ -66,14 +68,13 @@ let
     args = {
         inherit sources;
         inherit extlib;
-        inherit externalPackages;
+        inherit extpkgs;
         secrets = secrets.ageSecretFiles;
     };
 
     # FUTURE : Currently, there is no difference in arguments
     nixosArgs = args;
     homeArgs = args;
-
 
     mkNixos = hostModule: hostUsers: extlib.makeHost (
         [ hostModule ] ++
