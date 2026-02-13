@@ -4,13 +4,32 @@ Provides the root file for actually building a NixOS/Home Manager generation fro
 
 Handles the loading of all pinned sources, and the evaluation of config modules to produce a derivation.
 
+## Usage
+
+### NixOS
+
+```
+nixos-rebuild (switch | ... ) -f <path to interface> -A <host> [--sudo | ...]
+```
+
+### Home-Manager
+
+Upstream `home-manager` does not support custom builders. I provide a downstream version with the same interface as `nixos-rebuild`:
+
+```
+home-manager (switch | build) -f <path to interface> -A <user>
+```
+
+Note that this does not support custom builders for `repl`, `option`, `edit` or `instantiate`.
+Equivalent functionality can be achieved with a `nix repl`, importing the interface and inspecting `<interface>.user`.
+
 
 ## Current Pins
 
 Nixpkgs Unstable
 
 Internal:
-- `common` : NixOS common modules and standard library extension
+- `common` : NixOS common modules and standard library and packages extensions
 - `hosts` : Modules for hosts (NixOS configs)
 - `users` : Modules for users (NixOS users + Home Manager configs)
 - `secrets` : Secret data and agenix
@@ -28,7 +47,7 @@ External:
 In addition to the standard `config, lib, pkgs` exposed to modules, the following additional arguments are provided (to both NixOS and Home Manager modules):
 - `sources` : the `npins` sources, exposed directly. Should be used minimally (if at all)
 - `extlib` : an extension to the standard nix library. See common for more information
-- `externalPackages` : a set of named packages, produced from pinned sources (also exposes `nur`)
+- `extpkgs` : a set of named packages, produced from custom package set and pinned sources (also exposes `nur`)
 - `secrets` : a set of named secret files (typically `.age` files)
 
 
