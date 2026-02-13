@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2d102fd11d322b1ee7ee35ed778ee0bab463dfef",
+      "revision": "6d8829ccb45c2b4f80469f359bf88521e8a938bf",
       "url": null,
-      "hash": "1cp2gxyav669mlhb2g52c4dn539jd15sfhmg30yw8q40pbz8q9hi"
+      "hash": "1w2kpqiajqq9s95s3il2pz7p4147lnfn7zk43dvii4jfg8amkb2d"
     },
     "flake-compat": {
       "type": "Git",
@@ -56,9 +56,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2025c5f7eadc1093e30c87cf964926e0e4715276",
+      "revision": "8d2ba22272aa04d8d3d50e618dad97a3ea7c72f6",
       "url": null,
-      "hash": "0zmy0q495la12bhn4jfcycr6yilsdwcmkd6lvlc623ijwxc2cs31"
+      "hash": "0kg78g0smmg2p1idhqjc42wq8x318an0fi59kwypqmzw9g0y1mv5"
     },
     "nixos-rpi": {
       "type": "Git",
@@ -110,9 +110,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a85ebdd0d8d89469bc5dcab604c5ef40e92311ce",
+      "revision": "96ce76af4b38ded906f177ec78e65eaf1cb3925f",
       "url": null,
-      "hash": "1cvzmxvvqxd42ydgvm01irl9a1p2vm1zwqy958haqr5my0v9nya9"
+      "hash": "1dfr4av7zrmr55gfczfyyakmpp4r8rqv8h2g62mmbjv8drgz76ih"
     }
   },
   "version": 5
