@@ -10,7 +10,7 @@
       "submodules": false,
       "revision": "fcdea223397448d35d9b31f798479227e80183f6",
       "url": null,
-      "hash": "1d4m7hsq727q7ndjqmgyl8vkbkqjwps962ygmv2mcc5dbqzgn963"
+      "hash": "sha256-wyT7Pl6tMFbFrs8Lk/TlEs81N6L+VSybPfiIgzU8lbQ="
     },
     "common": {
       "type": "Git",
@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6d8829ccb45c2b4f80469f359bf88521e8a938bf",
+      "revision": "f47f85dcd9a7f415d830e03d52fdcc0d8acb4432",
       "url": null,
-      "hash": "1w2kpqiajqq9s95s3il2pz7p4147lnfn7zk43dvii4jfg8amkb2d"
+      "hash": "sha256-gVlPQfPL+wWv6DQq2L3cOXrSuEZskzZImXutWKRQOyw="
     },
     "flake-compat": {
       "type": "Git",
@@ -34,7 +34,7 @@
       "submodules": false,
       "revision": "5edf11c44bc78a0d334f6334cdaf7d60d732daab",
       "url": null,
-      "hash": "0yqfa6rx8md81bcn4szfp0hjq2f3h9i8zjzhqqyfqdkrj5559nmw"
+      "hash": "sha256-vNpUSpF5Nuw8xvDLj2KCwwksIbjua2LZCqhV1LNRDns="
     },
     "home-manager": {
       "type": "Git",
@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "fbc3373a1782a55889400c41f415e16ab6beab65",
+      "revision": "0f83b990860465926567f0f988f1aace008211a2",
       "url": null,
-      "hash": "0fx7z065c6aafwljsq5s1r60v2wzhqfblq3905f47c3rjrh64xvk"
+      "hash": "sha256-5KlaL+djEi8I1V9uHy6db+LqyXahvoL9hwDaJaNPYT0="
     },
     "hosts": {
       "type": "Git",
@@ -58,7 +58,7 @@
       "submodules": false,
       "revision": "8d2ba22272aa04d8d3d50e618dad97a3ea7c72f6",
       "url": null,
-      "hash": "0kg78g0smmg2p1idhqjc42wq8x318an0fi59kwypqmzw9g0y1mv5"
+      "hash": "sha256-ZdfgwUv8V3w9n6lEB6xCYXSEuSBMYthiuOLVqsFD500="
     },
     "nixos-rpi": {
       "type": "Git",
@@ -70,13 +70,13 @@
       "submodules": false,
       "revision": "251861d8e7e4806e185a8e41e09b3ad1e6e088e6",
       "url": null,
-      "hash": "1xirmcrk6wv5j85k3yvxx75vq6d57r0nirlgrj5gfq1b7h1kiljq"
+      "hash": "sha256-WNI4AzwrYPeKzI/maEE+pRm8y+l9+zELkmVzMzOrOfY="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
       "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre935279.bfc1b8a45741/nixexprs.tar.xz",
-      "hash": "1ldpyswqdkznf83r7c01v6i27r291c1kpq8rz2qgqznmjsiaic78"
+      "hash": "sha256-6LCoopbVfvyw+BnhOwMLSeQjotkBsJMHcvbPhrn2t9E="
     },
     "nur": {
       "type": "Git",
@@ -88,7 +88,7 @@
       "submodules": false,
       "revision": "5aa89e83073bce2e0a42967d21386b013b4e496a",
       "url": null,
-      "hash": "11hgk14wng1ybk05k309bvwh4vb1dzb51l19id4fn95dgi62laip"
+      "hash": "sha256-NyoqTHytJOtIiynQUNZvYW0C+V4JjFnAXD48y0mYD4Y="
     },
     "secrets": {
       "type": "Git",
@@ -100,7 +100,7 @@
       "submodules": false,
       "revision": "0d44789f43afe90d7ff89758c3f00071d8954caa",
       "url": null,
-      "hash": "1jh3bncdiy05j85a0js2bnyw7fi635j61cxxbhh4943k93j4qjmk"
+      "hash": "sha256-s0pM5EhzkEQgXL2zYGQZJrrDvV1CS6AKkgX42JhdA8o="
     },
     "users": {
       "type": "Git",
@@ -110,10 +110,10 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "96ce76af4b38ded906f177ec78e65eaf1cb3925f",
+      "revision": "95f49e924920aa33fe6700b93149d346000157f8",
       "url": null,
-      "hash": "1dfr4av7zrmr55gfczfyyakmpp4r8rqv8h2g62mmbjv8drgz76ih"
+      "hash": "sha256-mlmt4Rm4xD+7cRztUeeVvgpns++IL6zadZ6fATt4i5A="
     }
   },
-  "version": 5
+  "version": 7
 }
