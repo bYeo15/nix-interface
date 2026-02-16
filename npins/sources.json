@@ -56,9 +56,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8d2ba22272aa04d8d3d50e618dad97a3ea7c72f6",
+      "revision": "94f1e644c4aefd70bb7d69f7abf33f3ed151877c",
       "url": null,
-      "hash": "sha256-ZdfgwUv8V3w9n6lEB6xCYXSEuSBMYthiuOLVqsFD500="
+      "hash": "sha256-RDOXutkeEiBYyj6EbdpN+IVFwUCRuFAvJ5gq9f6rzPw="
     },
     "nixos-rpi": {
       "type": "Git",
@@ -110,9 +110,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "95f49e924920aa33fe6700b93149d346000157f8",
+      "revision": "e63cbc40fc44cde51fda7e5e15213d282b1aa714",
       "url": null,
-      "hash": "sha256-mlmt4Rm4xD+7cRztUeeVvgpns++IL6zadZ6fATt4i5A="
+      "hash": "sha256-83vNckXnLzr9x0JmhMfLJpAcLno7H+ooIQlza3Dpsq4="
     }
   },
   "version": 7
