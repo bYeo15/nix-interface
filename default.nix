@@ -93,14 +93,14 @@ in {
         (users.userModules.namedMainUser "ben")
     ];
 
-    # NOTE : Comes with dedicated "gaming" user
     nixpc = mkNixos hosts.nixpc [
         users.userModules.admin
+        (users.userModules.namedNodeUser "gaming")
     ];
 
     nixbook = mkNixos hosts.nixbook [
         users.userModules.admin
-        users.userModules.node
+        (users.userModules.namedNodeUser "node")
     ];
 
     # TODO : May have to be a special host function
