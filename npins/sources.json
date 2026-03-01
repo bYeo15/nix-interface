@@ -56,21 +56,22 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "58f53ea4ebca484e7ee9bf78ef200c38cd28fa72",
+      "revision": "bab021bc4fbf77daa9acf49fab594f8fd81d1df2",
       "url": null,
-      "hash": "sha256-Y3bjgx7IKd7reu5sJ5muFxYkW7Me4fD0FeiHWSW8lw0="
+      "hash": "sha256-XNbhMmX6p15Q10m3/iFB0tk4iz3v9OzwROEC94s1GRI="
     },
     "nixos-rpi": {
       "type": "Git",
       "repository": {
-        "type": "Git",
-        "url": "https://github.com/nvmd/nixos-raspberrypi.git"
+        "type": "GitHub",
+        "owner": "nvmd",
+        "repo": "nixos-raspberrypi"
       },
-      "branch": "main",
+      "branch": "develop",
       "submodules": false,
-      "revision": "251861d8e7e4806e185a8e41e09b3ad1e6e088e6",
-      "url": null,
-      "hash": "sha256-WNI4AzwrYPeKzI/maEE+pRm8y+l9+zELkmVzMzOrOfY="
+      "revision": "05502b5099aba4df458acb46d0e0487d51318400",
+      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/05502b5099aba4df458acb46d0e0487d51318400.tar.gz",
+      "hash": "sha256-E4YGCua2H3LcWI0kY8dksiQCwwXMO/q4noLwhbQp6Bc="
     },
     "nixpkgs": {
       "type": "Channel",
