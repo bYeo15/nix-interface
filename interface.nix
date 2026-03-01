@@ -52,7 +52,6 @@ let
     # modules exposed by nixos-rpi required for a pi build
     rpiModules = [
         rpi.lib.inject-overlays
-        rpi.lib.inject-overlays-global
         rpi.nixosModules.trusted-nix-caches
         rpi.nixosModules.nixpkgs-rpi
     ];
