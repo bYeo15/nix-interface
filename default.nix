@@ -18,7 +18,7 @@ in {
     ];
 
     nixpi = mkNixosPi hosts.nixpi [
-       users.userModules.admin
+       (users.userModules.adminWithGroups [ "pihole" ])
        users.userModules.staging
        (users.userModules.namedNodeUser "node")
     ];
