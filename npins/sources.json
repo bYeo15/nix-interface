@@ -76,8 +76,8 @@
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre958232.80bdc1e5ce51/nixexprs.tar.xz",
-      "hash": "sha256-kx4m0PT8acdAYUXesEkNtGJaZbarQn/C//NNbV4weX8="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre958961.aca4d95fce49/nixexprs.tar.xz",
+      "hash": "sha256-nbKkTH2oRlWaAjeDh/QMraqjfj/C2xJFa53twFzRd8o="
     },
     "nur": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3ec37e9418a6e76d4c272863f11fb7058ca2d286",
+      "revision": "9f4b9e8a48b7f7f14b26796bac9a982a40386ce7",
       "url": null,
-      "hash": "sha256-yHcv7+H7u5Dy1CnVGRpfl/gKBN3/NNyYCl5lUzEtogY="
+      "hash": "sha256-bf8GOnmGrrXd3NpCa+zuY6ets3QGBnbnIhBaMsVteIg="
     },
     "secrets": {
       "type": "Git",
