@@ -16,8 +16,8 @@ let
     # - nixos : generates nixos config, compatible only with nixos
     # - home : generates home manager config, compatible only with home manager
     common = import sources.common;
-    extlib = common.extlib { inherit sources; inherit pkgs; inherit lib; };
-    commonExtpkgs = common.extpkgs { inherit pkgs; };
+    extlib = common.extlib { inherit sources pkgs lib; };
+    commonExtpkgs = common.extpkgs { inherit pkgs lib; };
     commonDataModules = common.data;
     commonNixosModules = common.nixos;
     commonHomeModules = common.home;
