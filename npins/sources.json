@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fd9f45ae6e825fa3b87ee5e46112ef1e70a27755",
+      "revision": "1eb0d32b49f7dae534f4d21f42f515730b9aa46d",
       "url": null,
-      "hash": "sha256-CUNdo07/6Dyi9KIvhlz5jCcWnl6tLZSuD7HxhHi/lj8="
+      "hash": "sha256-+ymFtv140JgW8V5VO3eRDbUjssllG2I3eVp6TKg0wVU="
     },
     "flake-compat": {
       "type": "Git",
@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "1190be782e0505700d6ec4927520494a238f981a",
+      "revision": "27c5e8eb65b965a8c0488d7625225c7b2f8f8477",
       "url": null,
-      "hash": "sha256-m4YfGxzi76xvEvVTuzedhteMD9BfR2jgv8gdLeJ4PIQ="
+      "hash": "sha256-Yu3TESvBeOpMoMfSkBhp/Wit7dNuFX7GVD6qUdbWg5Q="
     },
     "hosts": {
       "type": "Git",
@@ -56,9 +56,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d0e87feb5508f65f6dbca5d5b9004620da69320e",
+      "revision": "f0dc5323e768449d30deb28b46b24c714c0ad6a8",
       "url": null,
-      "hash": "sha256-pwn5sdntcJCBUUSagrg3gUCVJzLZDdxeDf58GSWqmCo="
+      "hash": "sha256-89pE28hIi0Go7+sgTypvHuzxOEz1Z8zafQSqFr9YueM="
     },
     "nixos-rpi": {
       "type": "Git",
@@ -69,15 +69,15 @@
       },
       "branch": "develop",
       "submodules": false,
-      "revision": "05502b5099aba4df458acb46d0e0487d51318400",
-      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/05502b5099aba4df458acb46d0e0487d51318400.tar.gz",
-      "hash": "sha256-E4YGCua2H3LcWI0kY8dksiQCwwXMO/q4noLwhbQp6Bc="
+      "revision": "8d5d90f74c50522bf8415c977c7e62447778e64a",
+      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/8d5d90f74c50522bf8415c977c7e62447778e64a.tar.gz",
+      "hash": "sha256-xg15ImUOatGJ/hZ+Mm9N+dBbzh1inKQ83n69GcJXlTg="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre958961.aca4d95fce49/nixexprs.tar.xz",
-      "hash": "sha256-nbKkTH2oRlWaAjeDh/QMraqjfj/C2xJFa53twFzRd8o="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre972949.6201e203d095/nixexprs.tar.xz",
+      "hash": "sha256-ByAX1LkhCwZ94+KnFAmnJSMAvui7kgCxjHgUHsWAbfI="
     },
     "nur": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9f4b9e8a48b7f7f14b26796bac9a982a40386ce7",
+      "revision": "f7387b2aba5828c3138fc0ad3644566d7adc930b",
       "url": null,
-      "hash": "sha256-bf8GOnmGrrXd3NpCa+zuY6ets3QGBnbnIhBaMsVteIg="
+      "hash": "sha256-kZywsI7RzUhwP63isHLsgJ7Kae3OayzQn97XmW/TDQQ="
     },
     "secrets": {
       "type": "Git",
@@ -111,9 +111,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2ae92d12289ec30c78bbff0aada6807975643321",
+      "revision": "75f3a12a8d46b9f3ae34a1794e9368be9bd7cc7b",
       "url": null,
-      "hash": "sha256-MSHUlGxfmoEF2akIFCKthw3Lp/5VFhY00MsxHtuyw/A="
+      "hash": "sha256-uGEbfCGUW9MeSFKpIxgRFLoeAuwi7+hsG7Ni9rriGag="
     }
   },
   "version": 7
