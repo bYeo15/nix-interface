@@ -56,9 +56,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f0dc5323e768449d30deb28b46b24c714c0ad6a8",
+      "revision": "789a40d99f33e36e781d2ad129def9b1ded87792",
       "url": null,
-      "hash": "sha256-89pE28hIi0Go7+sgTypvHuzxOEz1Z8zafQSqFr9YueM="
+      "hash": "sha256-+ylVfMjRRJ6pzog+QvAUuKpxwhHRRHrY8BtD9PZUsiY="
     },
     "nixos-rpi": {
       "type": "Git",
