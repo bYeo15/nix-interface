@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "27c5e8eb65b965a8c0488d7625225c7b2f8f8477",
+      "revision": "98b6ff80afb9a779068be232ff91da9c68fec84f",
       "url": null,
-      "hash": "sha256-Yu3TESvBeOpMoMfSkBhp/Wit7dNuFX7GVD6qUdbWg5Q="
+      "hash": "sha256-l2VuUdx3e8UXC6TdGocUPA2amyTQhiEpZbs7B0S3Qz0="
     },
     "hosts": {
       "type": "Git",
@@ -76,8 +76,8 @@
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre975402.68d8aa3d661f/nixexprs.tar.xz",
-      "hash": "sha256-hvNLo3SaIwi6+Cm5NMLyFQYJrYagpsYap4EfQe9CQpc="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre977467.4c1018dae018/nixexprs.tar.xz",
+      "hash": "sha256-WGjBfvXv/mcg5yBg+AtK1Q3FHyXfjAAeJROmg7DLYfM="
     },
     "nur": {
       "type": "Git",
