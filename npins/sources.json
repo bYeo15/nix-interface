@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d7fef9c69507ff47394dbacaa38c67cb43cab97b",
+      "revision": "565438e9362e8b0fde6569b60a658cc1983022ab",
       "url": null,
-      "hash": "sha256-LUZ70B2c1OsVf8Hbiyu4E7T5hu7aPTD1zdWx6OoFczA="
+      "hash": "sha256-khrBXT6A8HPWkTJB/mAaSEYuzmerM5aclD9qQ/Hqhs0="
     },
     "flake-compat": {
       "type": "Git",
