@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2b48f0ea0b1283296b3b8df80774c368802e4da6",
+      "revision": "684c97838c1fe8038cda41ba1206d18dcc816528",
       "url": null,
-      "hash": "sha256-k0RNrss5InA+UiWEzVyaq88A+iLapNPdbG9s8EMyNkM="
+      "hash": "sha256-UGTeHq/srWyy3pKPLLdJNyogpdOpphJC8O6rM4CfTaY="
     },
     "flake-compat": {
       "type": "Git",
@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "c62bf09c892d209ae7ba5f8ce9b0076036dfced1",
+      "revision": "89b96af116b34cc17ed006b41a530b86347f8349",
       "url": null,
-      "hash": "sha256-FrJlUvKnidFLsvcgGNI7Q2pqwwcDpXrX+Wyy74nf83M="
+      "hash": "sha256-WyiJdGqjHwa4Fz/NDH8mxkDPJ5WbBhtIdCA+fhZ49Ig="
     },
     "hosts": {
       "type": "Git",
@@ -69,15 +69,15 @@
       },
       "branch": "develop",
       "submodules": false,
-      "revision": "0fca4e50b506abfc5915f990f07868e717477d4e",
-      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/0fca4e50b506abfc5915f990f07868e717477d4e.tar.gz",
-      "hash": "sha256-HXCK+7y4C11yBsZNWeBC4qQz9aUq0JZ5MCjw5RLkTdU="
+      "revision": "8092648247da085d42aee356b8e2146f6f0abaa5",
+      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/8092648247da085d42aee356b8e2146f6f0abaa5.tar.gz",
+      "hash": "sha256-fQmnEEfsoq5ek471hCzmS/19w0AYwL/9P5HBDpkvW4s="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre990025.15f4ee454b1d/nixexprs.tar.xz",
-      "hash": "sha256-fN6ynMvcdwPDB09LpWJNO5ogu+HFydrBWXJywoI/NNg="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre995699.da5ad661ba4e/nixexprs.tar.xz",
+      "hash": "sha256-rNDJzV2JTV5SUTwv1cgKZYMdyoUYU9/YfegSaUf3QfY="
     },
     "nur": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3206a714bf15efdf5118a3b09620ca678e32ad4d",
+      "revision": "cb307695a0afecbaf24fbdb19fdb6e481396283d",
       "url": null,
-      "hash": "sha256-uEAvv9ARil8nFS0g3v2WLDDoBueD1VHwHhso/WPxIyY="
+      "hash": "sha256-Gt03YnUpP+FIndBy9frdwcqRF9m61QxSf6RxGrlPlTA="
     },
     "secrets": {
       "type": "Git",
@@ -111,9 +111,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f428a336f91d5161cc582cd75696100275590496",
+      "revision": "4c183bf6ec780cb0136ee6f9c0928a923992bf69",
       "url": null,
-      "hash": "sha256-Y2EQI6rDAziPQG65DFrNZGAe0NjPv43nhba2u+1JXNY="
+      "hash": "sha256-nXVqbkvDUmBIUh1FAmLkNJBZVWR3dVplsS/V+blkZYA="
     }
   },
   "version": 7
