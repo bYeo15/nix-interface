@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "89b96af116b34cc17ed006b41a530b86347f8349",
+      "revision": "80ef0dd228943e4946af264062d63edc47489908",
       "url": null,
-      "hash": "sha256-WyiJdGqjHwa4Fz/NDH8mxkDPJ5WbBhtIdCA+fhZ49Ig="
+      "hash": "sha256-qFQHiR448acKJyzzV79HzuHnpmuDnmrHUoV+3wXK+yc="
     },
     "hosts": {
       "type": "Git",
@@ -69,15 +69,15 @@
       },
       "branch": "develop",
       "submodules": false,
-      "revision": "8092648247da085d42aee356b8e2146f6f0abaa5",
-      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/8092648247da085d42aee356b8e2146f6f0abaa5.tar.gz",
-      "hash": "sha256-fQmnEEfsoq5ek471hCzmS/19w0AYwL/9P5HBDpkvW4s="
+      "revision": "d567e94380c2911ca9fd623ee1bef35ddd6157d9",
+      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/d567e94380c2911ca9fd623ee1bef35ddd6157d9.tar.gz",
+      "hash": "sha256-MInilg7B/06c34SwOuGSBho4l0H1EZcmvxTkSWCs5pE="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre995699.da5ad661ba4e/nixexprs.tar.xz",
-      "hash": "sha256-rNDJzV2JTV5SUTwv1cgKZYMdyoUYU9/YfegSaUf3QfY="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre998534.d233902339c0/nixexprs.tar.xz",
+      "hash": "sha256-VdRy3A14M5vIE882DJcaaR+5wrss9Qsg4YNVbr7uj3k="
     },
     "nur": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "cb307695a0afecbaf24fbdb19fdb6e481396283d",
+      "revision": "d084e58ca2686f18104d6ad9817bb7ce1334ec29",
       "url": null,
-      "hash": "sha256-Gt03YnUpP+FIndBy9frdwcqRF9m61QxSf6RxGrlPlTA="
+      "hash": "sha256-BvaDD3k+ALUv8rQ5Dhes69lxAssQgkYs+YjFLB4ZiGg="
     },
     "secrets": {
       "type": "Git",
