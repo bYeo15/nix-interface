@@ -18,6 +18,7 @@ let
     common = import sources.common;
     extlib = common.extlib { inherit sources pkgs lib; };
     commonExtpkgs = common.extpkgs { inherit pkgs lib; };
+    commonOverlays = common.inject_overlays;
     commonDataModules = common.data;
     commonNixosModules = common.nixos;
     commonHomeModules = common.home;
@@ -101,7 +102,8 @@ let
         [ hostModule ] ++
         hostUsers      ++
         dataModules    ++
-        nixosModules
+        nixosModules   ++
+        commonOverlays
     ) nixosArgs;
 
     mkNixosPi = hostModule: hostUsers: extlib.makeHost (
@@ -109,13 +111,15 @@ let
         hostUsers      ++
         dataModules    ++
         nixosModules   ++
-        rpiModules
+        rpiModules     ++
+        commonOverlays
     ) (nixosArgs // { nixos-raspberrypi = rpi; });
 
     mkUser = userModule: extlib.makeHome (
         [ userModule ] ++
         dataModules    ++
-        homeModules
+        homeModules    ++
+        commonOverlays
     ) homeArgs;
 in {
     # --- Interface ---
@@ -127,6 +131,9 @@ in {
         inherit mkNixos mkNixosPi;
         inherit mkUser;
     };
+
+    # Expose common overlays for repl use
+    overlays = common.overlays;
 
     # --- Debug ---
     # Expose pin sources
