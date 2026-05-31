@@ -103,7 +103,7 @@ let
         hostUsers      ++
         dataModules    ++
         nixosModules   ++
-        commonOverlays
+        [ commonOverlays ]
     ) nixosArgs;
 
     mkNixosPi = hostModule: hostUsers: extlib.makeHost (
@@ -112,14 +112,14 @@ let
         dataModules    ++
         nixosModules   ++
         rpiModules     ++
-        commonOverlays
+        [ commonOverlays ]
     ) (nixosArgs // { nixos-raspberrypi = rpi; });
 
     mkUser = userModule: extlib.makeHome (
         [ userModule ] ++
         dataModules    ++
         homeModules    ++
-        commonOverlays
+        [ commonOverlays ]
     ) homeArgs;
 in {
     # --- Interface ---
