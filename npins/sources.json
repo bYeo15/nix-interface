@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "148a6d41144fa5f65d36aeaf3f2038b1439bc27e",
+      "revision": "f60e58b48eb819f839c47d2543130816a585d119",
       "url": null,
-      "hash": "sha256-qRcSAQGowwzreQdeC0eEqMv2vI0seGhHExuaEbcE2uU="
+      "hash": "sha256-rA9p5gSGfSfQ2o6V3UJcpXpsX+T+ONd+Bq3vNSY7DXk="
     },
     "flake-compat": {
       "type": "Git",
@@ -44,9 +44,9 @@
       },
       "branch": "feature/custom-build",
       "submodules": false,
-      "revision": "80ef0dd228943e4946af264062d63edc47489908",
+      "revision": "8ce6147e9c8266063e5795ba9de19d4da5570ea8",
       "url": null,
-      "hash": "sha256-qFQHiR448acKJyzzV79HzuHnpmuDnmrHUoV+3wXK+yc="
+      "hash": "sha256-9SQc0NbO6RcaOVRw3mtuJHpr5QtHLzMVFeRXlebNxvs="
     },
     "hosts": {
       "type": "Git",
@@ -69,15 +69,15 @@
       },
       "branch": "develop",
       "submodules": false,
-      "revision": "d567e94380c2911ca9fd623ee1bef35ddd6157d9",
-      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/d567e94380c2911ca9fd623ee1bef35ddd6157d9.tar.gz",
-      "hash": "sha256-MInilg7B/06c34SwOuGSBho4l0H1EZcmvxTkSWCs5pE="
+      "revision": "a5e10257aaa0c0bd2448416239384ae32a4c1213",
+      "url": "https://github.com/nvmd/nixos-raspberrypi/archive/a5e10257aaa0c0bd2448416239384ae32a4c1213.tar.gz",
+      "hash": "sha256-3XqPQcRNMPzXt1uX4Z8MqGey3TilrvTJl/SDUfiveho="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre998534.d233902339c0/nixexprs.tar.xz",
-      "hash": "sha256-VdRy3A14M5vIE882DJcaaR+5wrss9Qsg4YNVbr7uj3k="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1017464.567a49d1913c/nixexprs.tar.xz",
+      "hash": "sha256-rcUHdUtJEvMdNEl2Wq+YpHraHKfcer3KsBscpZEF2Yg="
     },
     "nur": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d084e58ca2686f18104d6ad9817bb7ce1334ec29",
+      "revision": "9853c354e18f9ed28daa551174b48e0d491390cf",
       "url": null,
-      "hash": "sha256-BvaDD3k+ALUv8rQ5Dhes69lxAssQgkYs+YjFLB4ZiGg="
+      "hash": "sha256-kvZCHoIgdII6AJAahFFqPt2mTPFGuihsOD7p4pWf5ss="
     },
     "secrets": {
       "type": "Git",
