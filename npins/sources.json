@@ -20,9 +20,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "684c97838c1fe8038cda41ba1206d18dcc816528",
+      "revision": "148a6d41144fa5f65d36aeaf3f2038b1439bc27e",
       "url": null,
-      "hash": "sha256-UGTeHq/srWyy3pKPLLdJNyogpdOpphJC8O6rM4CfTaY="
+      "hash": "sha256-qRcSAQGowwzreQdeC0eEqMv2vI0seGhHExuaEbcE2uU="
     },
     "flake-compat": {
       "type": "Git",
@@ -111,9 +111,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "b73741994ef476d9c1f11741c1483c4c915bc158",
+      "revision": "bd58ab45d20a673d37e6f39f5d1684b2d1448171",
       "url": null,
-      "hash": "sha256-8+1eJmgjK/JN0m3+zuMrwuxFO8mvSJwfuzmVIRmDcA0="
+      "hash": "sha256-WkQbAyRIo3Ka4HGL0W3cdsxSVEgBuQ3m3kd9dPEm0Bo="
     }
   },
   "version": 7
